@@ -6,7 +6,7 @@ import (
 	"github.com/ValwareIRC/unrealircd-webpanel-2/internal/config"
 	"github.com/ValwareIRC/unrealircd-webpanel-2/internal/database/models"
 	"gorm.io/driver/mysql"
-	"gorm.io/driver/sqlite"
+	"github.com/glebarez/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
